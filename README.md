@@ -1,7 +1,7 @@
 # react-native-theme-example
 [![Build Status](https://travis-ci.org/apentle/react-native-theme-example.svg?branch=master)](https://travis-ci.org/apentle/react-native-theme-example)
 
-An example project use react-native-theme
+An example project uses react-native-theme
 
 ![ios Theme Change](https://raw.githubusercontent.com/apentle/react-native-theme-example/master/screenshot.gif)
 
@@ -20,13 +20,13 @@ An example project use react-native-theme
   $ npm install
   ```
 
-3. **Running on Android**:
+3. **Running on Android**
 
   ```
   $ react-native run-android
   ```
 
-4. **Running on iOS:**
+4. **Running on iOS**
 
   ```
   $ react-native run-ios
