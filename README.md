@@ -1,7 +1,7 @@
 # react-native-theme-example
 [![Build Status](https://travis-ci.org/apentle/react-native-theme-example.svg?branch=master)](https://travis-ci.org/apentle/react-native-theme-example)
 
-An example project uses react-native-theme
+An example project uses [react-native-theme](https://github.com/apentle/react-native-theme)
 
 ![ios Theme Change](https://raw.githubusercontent.com/apentle/react-native-theme-example/master/screenshot.gif)
 
