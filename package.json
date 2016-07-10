@@ -9,8 +9,8 @@
   "dependencies": {
     "babel-plugin-react-native-css-class": "^0.1.0",
     "babel-preset-react-native": "^1.9.0",
-    "react": "^0.14.7",
-    "react-native": "^0.22.2",
+    "react": "^15.2.0",
+    "react-native": "^0.28.0",
     "react-native-theme": "^0.x"
   }
 }
