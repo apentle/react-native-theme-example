@@ -8,12 +8,14 @@ import {
   View,
   TouchableOpacity,
 } from 'react-native';
-import theme, {styles} from 'react-native-theme';
-const ThemeExample = require('./ThemeExample');
+import theme, {styles, Example} from 'react-native-theme';
 
 // Setup Themes
 theme.add(require('./theme/default'));
+theme.addComponents({Example: require('./ThemeExample')});
+
 theme.add(require('./theme/red'), 'red');
+theme.addComponents({Example: require('./RedExample')}, 'red');
 
 const App = React.createClass({
   getInitialState() {
@@ -33,7 +35,7 @@ const App = React.createClass({
   render() {
     return (
       <View class="container">
-        <ThemeExample />
+        <Example />
         <TouchableOpacity onPress={this._defaultTheme}>
           <View class="button default">
             <Text class="label">DEFAULT THEME</Text>

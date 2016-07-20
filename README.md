@@ -3,7 +3,7 @@
 
 An example project uses [react-native-theme](https://github.com/apentle/react-native-theme)
 
-![ios Theme Change](https://raw.githubusercontent.com/apentle/react-native-theme-example/master/screenshot.gif)
+![ios Theme Change](https://raw.githubusercontent.com/apentle/react-native-theme-example/master/screenshot1.gif)
 
 ## Setup
 
