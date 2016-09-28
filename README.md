@@ -33,6 +33,7 @@ An example project uses [react-native-theme](https://github.com/apentle/react-na
   ```
 
 5. **Running on Web**
+
 Looking for an [online version here](https://rawgit.com/apentle/react-native-theme-example/master/web/index.html)
 
 Or build it your own:
@@ -41,4 +42,4 @@ Or build it your own:
   $ npm run web
   ```
 
-Open file `web.index.html` on your browser!
+Then open file `web.index.html` on your browser!
