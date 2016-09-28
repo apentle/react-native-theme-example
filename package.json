@@ -4,13 +4,18 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "web": "webpack",
     "bundle": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js --bundle-output main.bundle"
   },
   "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
     "babel-plugin-react-native-css-class": "^0.1.0",
     "babel-preset-react-native": "^1.9.0",
     "react": "^15.2.0",
     "react-native": "^0.28.0",
-    "react-native-theme": "^0.x"
+    "react-native-theme": "^0.x",
+    "react-native-web": "0.0.45",
+    "webpack": "^1.13.2"
   }
 }
